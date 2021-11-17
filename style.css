@@ -1,0 +1,47 @@
+body {
+background-image: url(images/concert.JPG);
+background-position: center;
+background-size : cover;
+font-family : courier;
+font-size: 22px;
+text-align: center;
+color : rgb(150, 150, 150);
+}
+
+.image-circle{
+border-radius: 50% ;
+}
+
+.encadrement{
+	padding: 20px 40px;
+	background-color: rgba(1, 1, 1, 0.7);
+	border-radius: 10px;
+	box-shadow: 10px 10px 30px rgba(50, 50, 50, 1);
+	margin-bottom: 20px;
+}
+h1 {
+	color: #9D5C0D;
+	font-family: Lora;
+	font-weight: 100;
+	letter-spacing: 10px;
+}
+
+h2, h3 {
+	color: #C68B59;
+	font-weight: 200;
+	letter-spacing: 10px;
+	font-size: 44px;
+	font-family: Estonia;
+	font-weight: lighter;
+}
+
+.encadrement li {
+	display: inline-block;
+	padding: 30px;
+	font-size: 50px;
+	border-radius: 20px;
+}
+
+.encadrement a {
+	color: #B85C38;
+}
